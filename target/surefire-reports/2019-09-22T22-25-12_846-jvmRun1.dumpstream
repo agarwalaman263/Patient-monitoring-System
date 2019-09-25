@@ -1,0 +1,189 @@
+# Created at 2019-09-22T22:25:15.120
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-09-22T22:25:15.151
+Unexpected IOException with stream: 22:25:15.148 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.philips.pms.test.controller.IcuControllerTest]
+
+
+# Created at 2019-09-22T22:25:15.412
+Unexpected IOException with stream: 22:25:15.412 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\320050720\OneDrive - Philips\Desktop\PMS Casestudy\JavaLogic\pms\target\classes\com\philips\pms\App.class]
+
+
+# Created at 2019-09-22T22:25:15.412
+Unexpected IOException with stream: 22:25:15.412 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.philips.pms.App for test class com.philips.pms.test.controller.IcuControllerTest
+
+
+# Created at 2019-09-22T22:25:15.423
+Unexpected IOException with stream: 22:25:15.423 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [com.philips.pms.test.controller.IcuControllerTest]: using defaults.
+
+
+# Created at 2019-09-22T22:25:15.423
+Unexpected IOException with stream: 22:25:15.423 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+
+
+# Created at 2019-09-22T22:25:15.453
+Unexpected IOException with stream: 22:25:15.453 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+
+
+# Created at 2019-09-22T22:25:15.453
+Unexpected IOException with stream: 22:25:15.453 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+
+
+# Created at 2019-09-22T22:25:15.461
+Unexpected IOException with stream: 22:25:15.453 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@25c2a9e3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@9b23822, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@60f21960, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6a6c7f42, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a515e5d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@423a0e1d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32f32623, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3becc950, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6b9fdbc6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@79476a4e]
+
+
+# Created at 2019-09-22T22:25:15.463
+Unexpected IOException with stream: 22:25:15.463 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.philips.pms.test.controller.IcuControllerTest]
+
+
+# Created at 2019-09-22T22:25:15.471
+Unexpected IOException with stream: 22:25:15.463 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.philips.pms.test.controller.IcuControllerTest]
+
+
+# Created at 2019-09-22T22:25:15.473
+Unexpected IOException with stream: 22:25:15.473 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.philips.pms.test.controller.IcuControllerTest]
+
+
+# Created at 2019-09-22T22:25:15.482
+Unexpected IOException with stream: 22:25:15.473 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.philips.pms.test.controller.IcuControllerTest]
+
+
+# Created at 2019-09-22T22:25:15.484
+Unexpected IOException with stream: 22:25:15.484 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.philips.pms.test.controller.IcuControllerTest]
+
+
+# Created at 2019-09-22T22:25:15.484
+Unexpected IOException with stream: 22:25:15.484 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.philips.pms.test.controller.IcuControllerTest]
+
+
+# Created at 2019-09-22T22:25:15.494
+Unexpected IOException with stream: 22:25:15.494 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6a15b73 testClass = IcuControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@44dc7b7d testClass = IcuControllerTest, locations = '{}', classes = '{class com.philips.pms.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@15fb4566 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7ed9499e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3fc05ea2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@54657dd2, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@21a3ba65, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e33986af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42714a7], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+
+
+# Created at 2019-09-22T22:25:15.502
+Unexpected IOException with stream: 22:25:15.494 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.philips.pms.test.controller.IcuControllerTest]
+
+
+# Created at 2019-09-22T22:25:15.504
+Unexpected IOException with stream: 22:25:15.502 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.philips.pms.test.controller.IcuControllerTest]
+
+
+# Created at 2019-09-22T22:25:16.688
+Unexpected IOException with stream: 22:25:16.685 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@6a15b73 testClass = IcuControllerTest, testInstance = com.philips.pms.test.controller.IcuControllerTest@788a0513, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@44dc7b7d testClass = IcuControllerTest, locations = '{}', classes = '{class com.philips.pms.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@15fb4566 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7ed9499e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3fc05ea2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@54657dd2, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@21a3ba65, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e33986af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@42714a7], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+
+
+# Created at 2019-09-22T22:25:17.022
+Unexpected IOException with stream: 22:25:17.012 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true, server.port=-1}
+
+
+# Created at 2019-09-22T22:25:17.398
+Unexpected IOException with stream: 
+
+
+# Created at 2019-09-22T22:25:17.401
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2019-09-22T22:25:17.403
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2019-09-22T22:25:17.406
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2019-09-22T22:25:17.410
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2019-09-22T22:25:17.412
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2019-09-22T22:25:17.414
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2019-09-22T22:25:17.417
+Unexpected IOException with stream:  :: Spring Boot ::        (v2.1.3.RELEASE)
+
+
+# Created at 2019-09-22T22:25:17.420
+Unexpected IOException with stream: 
+
+
+# Created at 2019-09-22T22:25:17.557
+Unexpected IOException with stream: 2019-09-22 22:25:17.554  INFO 11344 --- [           main] c.p.p.test.controller.IcuControllerTest  : Starting IcuControllerTest on YY175274 with PID 11344 (started by 320050720 in C:\Users\320050720\OneDrive - Philips\Desktop\PMS Casestudy\JavaLogic\pms)
+
+
+# Created at 2019-09-22T22:25:17.563
+Unexpected IOException with stream: 2019-09-22 22:25:17.561  INFO 11344 --- [           main] c.p.p.test.controller.IcuControllerTest  : No active profile set, falling back to default profiles: default
+
+
+# Created at 2019-09-22T22:25:20.679
+Unexpected IOException with stream: 2019-09-22 22:25:20.679  INFO 11344 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2019-09-22T22:25:20.862
+Unexpected IOException with stream: 2019-09-22 22:25:20.860  INFO 11344 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+
+
+# Created at 2019-09-22T22:25:20.993
+Unexpected IOException with stream: 2019-09-22 22:25:20.991  INFO 11344 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2019-09-22T22:25:20.993
+Unexpected IOException with stream: 2019-09-22 22:25:20.993  INFO 11344 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2019-09-22T22:25:21.014
+Unexpected IOException with stream: 2019-09-22 22:25:21.014  INFO 11344 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 21 ms
+
+
+# Created at 2019-09-22T22:25:21.075
+Unexpected IOException with stream: 2019-09-22 22:25:21.073  INFO 11344 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+
+
+# Created at 2019-09-22T22:25:21.117
+Unexpected IOException with stream: 2019-09-22 22:25:21.113  INFO 11344 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+
+
+# Created at 2019-09-22T22:25:21.137
+Unexpected IOException with stream: 2019-09-22 22:25:21.135  INFO 11344 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+
+
+# Created at 2019-09-22T22:25:21.304
+Unexpected IOException with stream: 2019-09-22 22:25:21.296  INFO 11344 --- [           main] c.p.p.test.controller.IcuControllerTest  : Started IcuControllerTest in 4.254 seconds (JVM running for 7.768)
+
+
+# Created at 2019-09-22T22:25:21.316
+Unexpected IOException: 5,1,com.philips.pms.test.controller.IcuControllerTest,testHelloWorld(com.philips.pms.test.controller.IcuControllerTest),null,null,null
+
+
+# Created at 2019-09-22T22:25:21.377
+Unexpected IOException with stream: 2019-09-22 22:25:21.375  INFO 11344 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2019-09-22T22:25:21.377
+Unexpected IOException with stream: 2019-09-22 22:25:21.377  INFO 11344 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2019-09-22T22:25:21.377
+Unexpected IOException with stream: 2019-09-22 22:25:21.377  INFO 11344 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+
+
+# Created at 2019-09-22T22:25:21.508
+Unexpected IOException: 6,1,com.philips.pms.test.controller.IcuControllerTest,testHelloWorld(com.philips.pms.test.controller.IcuControllerTest),null,null,null
+
+
+# Created at 2019-09-22T22:25:21.508
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.philips.pms.test.controller.IcuControllerTest,null,null,null
+
+
